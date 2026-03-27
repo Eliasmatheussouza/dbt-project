@@ -1,0 +1,10 @@
+sources:
+  - name: jaffle_shop
+    database: raw
+    schema: jaffle_shop
+    description: A clone of a Postgres application database.
+    tables:
+      - name: customers
+        description: Raw customer data.
+      - name: orders
+        description: Raw orders data.
